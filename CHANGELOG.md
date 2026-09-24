@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Removed the illustrative banner from the README opening; competition photos remain in the gallery.
+
 ## v1.0.1 - 2026-09-24
 
 - Refined the English project homepage with a custom illustrated banner, concise project status, award summary, and compact photo gallery.

@@ -1,18 +1,10 @@
-<div align="center">
-  <img src="assets/guide-vest-banner.svg" alt="Illustration of a high-visibility guide vest, traffic signal, and crosswalk; this is a project banner, not a photograph of the device." width="100%">
-  <h1>AI-Assisted Smart Guide Vest</h1>
-  <p><strong>Exploring camera-based cues for safer, more accessible street crossings.</strong></p>
-  <p>
-    <a href="https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/latest">Latest project release · v1.0.1</a>
-    &nbsp;·&nbsp; 2026 TEYI Silver Award &nbsp;·&nbsp; 2026 WICO Silver Award
-  </p>
-  <p>
-    <a href="README.zh-TW.md">Traditional Chinese</a>
-    &nbsp;·&nbsp; <a href="docs/competitions.md">Competition photos</a>
-    &nbsp;·&nbsp; <a href="hardware/BOM.md">Hardware list</a>
-    &nbsp;·&nbsp; <a href="dataset/README.md">Dataset notes</a>
-  </p>
-</div>
+# AI-Assisted Smart Guide Vest
+
+**Exploring camera-based cues for safer, more accessible street crossings.**
+
+[Latest project release · v1.0.1](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/latest) · 2026 TEYI Silver Award · 2026 WICO Silver Award
+
+[Traditional Chinese](README.zh-TW.md) · [Competition photos](docs/competitions.md) · [Hardware list](hardware/BOM.md) · [Dataset notes](dataset/README.md)
 
 > [!WARNING]
 > This is an experimental research prototype, not a certified mobility aid. It cannot guarantee correct signal detection or safe crossing. Always check the real signal and traffic using independent judgment and appropriate support.
