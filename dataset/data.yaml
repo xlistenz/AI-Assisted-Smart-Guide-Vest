@@ -1,0 +1,13 @@
+# Target specification only. Current source exports contain three classes and
+# no train/val/test split; this file is not ready for training until a verified
+# five-class dataset has been converted and placed in the paths below.
+path: ./converted-five-class
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: 斑馬線
+  1: 行人紅燈
+  2: 行人綠燈
+  3: 車用紅燈
+  4: 車用綠燈

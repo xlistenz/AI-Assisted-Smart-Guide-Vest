@@ -1,0 +1,28 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*.json
+token*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Training runs and large raw data exports
+runs/
+dataset/raw/
+dataset/unpacked/
+dataset/*.zip
+*.part
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
