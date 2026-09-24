@@ -11,7 +11,21 @@ An experimental computer-vision project exploring camera-based cues for visually
 - Prototype source: [`src/main.py`](src/main.py). Static inspection shows camera capture, YOLO inference, GPIO controls, and voice-module triggers. It has not been validated on the complete vest or on a Raspberry Pi.
 - Model: [`models/my_model.pt`](models/my_model.pt). Training records indicate YOLO11s, 640-pixel input, and 80 epochs. Its class mapping has not been verified.
 - Target classes: zebra crossing, pedestrian red, pedestrian green, vehicle red, vehicle green. Existing dataset exports contain only three generic classes with inconsistent ordering, and do not distinguish pedestrian signals from vehicle lights.
-- Physical wiring, motor-driver details, and public-use prototype photos are not available in the supplied workspace. See the project notes before assembling or relying on the device.
+- Physical wiring and motor-driver details still need verification. Event photos document the wearable prototype and exhibition; they are not evidence of validated performance. See the project notes before assembling or relying on the device.
+
+## Competition awards and prototype photos
+
+The project received Silver Awards at **2026 TEYI** and **2026 WICO (World Invention Creativity Olympic)**. The awards and event demonstrations show that the team built and presented a physical assistive-technology prototype, supporting its early-stage feasibility and potential. They do not certify the system or establish that it is safe for independent street crossing.
+
+See the [competition record and photo gallery](docs/competitions.md).
+
+![The wearable prototype during an event demonstration](assets/images/wico-prototype-demo.png)
+
+![Project team at the WICO exhibition booth](assets/images/wico-booth-team.png)
+
+![Project display at the WICO exhibition](assets/images/wico-exhibition.png)
+
+![2026 WICO Silver Award certificate and medal](assets/images/wico-silver-certificate.png)
 
 ## Concept
 
