@@ -6,7 +6,7 @@ This table preserves the supplied contest and repair inventory. Quantities and d
 
 | Category | Item | Qty. | Purpose / note |
 | --- | --- | ---: | --- |
-| Showcase | Completed project (作品) | 1 | Details and final build photos not supplied |
+| Showcase | Completed project | 1 | Details and final build photos not supplied |
 | Power | Raspberry Pi battery case | 2 | Compatibility and use in final vest pending confirmation |
 | Power | Adapter for Raspberry Pi battery case | 2 | Rating not supplied |
 | Power | 18650 lithium battery | 12 | Insulate terminals and pack separately as stated in source list |
@@ -62,7 +62,7 @@ This table preserves the supplied contest and repair inventory. Quantities and d
 
 ## Design brief items to verify against the physical build
 
-The project brief separately names Raspberry Pi 5 2GB, Raspberry Pi Camera Module 3, GPIO, vibration motors, speaker/audio output, microphone, power bank or power module, wiring, and the vest body. Exact quantities, model numbers, wiring, and whether each item is present in the current build are **待補充**. No prices were supplied.
+The project brief separately names Raspberry Pi 5 2GB, Raspberry Pi Camera Module 3, GPIO, vibration motors, speaker/audio output, microphone, power bank or power module, wiring, and the vest body. Exact quantities, model numbers, wiring, and whether each item is present in the current build are **TBD**. No prices were supplied.
 
 ## Interfaces referenced in the supplied program
 

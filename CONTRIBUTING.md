@@ -1,16 +1,16 @@
 # Contributing
 
-Contributions are welcome once the implementation and dataset provenance are documented.
+Contributions are welcome. Please keep prototype behavior, verified hardware facts, and future plans clearly distinguished.
 
 ## Development setup
 
-The current workspace does not include the vest application source or a dependency manifest, so a verified development install command is not available yet. When adding source code, include a minimal dependency list and exact setup instructions for the supported operating system and Raspberry Pi model. Do not add credentials; use environment variables and document their names in `.env.example` only.
+The repository includes the prototype entry point at `src/main.py` and a basic `requirements.txt`. The hardware-specific environment has not been verified, so the install notes are a starting point rather than a tested setup. When changing source code, keep dependencies documented and state the operating system and Raspberry Pi model used for validation. Do not add credentials; use environment variables and document their names in `.env.example` only.
 
 ## Changes and issues
 
 - Open an issue describing the observed behavior, hardware, OS, and reproducible steps. Remove API keys and personal data from logs.
 - Keep pull requests focused and describe the hardware/software setup used to validate them.
-- Use clear names and follow existing style. Python changes should include syntax and import checks when the implementation is added.
+- Use clear names and follow existing style. For Python changes, document syntax, import, and hardware checks that were performed; do not present desktop checks as hardware validation.
 
 ## Dataset rules
 

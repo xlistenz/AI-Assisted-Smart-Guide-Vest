@@ -2,7 +2,7 @@
 
 The workspace contains `my_model.pt` (19,182,490 bytes) and a YOLO training run with `best.pt` and `last.pt` (both 19,182,490 bytes). One copy is included here. The other run files remain in the original workspace.
 
-The recorded training arguments in `train/args.yaml` specify `model: yolo11s.pt`, `imgsz: 640`, `epochs: 80`, and `data: /content/data.yaml`. The training output also contains results and evaluation plots under `assets/screenshots/`.
+The supplied training record (`train/args.yaml`, not included in this repository) specifies `model: yolo11s.pt`, `imgsz: 640`, `epochs: 80`, and `data: /content/data.yaml`. Historical results and evaluation plots are included under `assets/screenshots/`.
 
 The source class metadata includes only three categories and disagrees on their order. The target specification has five categories. The checkpoint's class mapping has not been independently verified, so this model must not be presented as a five-class model. Its confidence threshold, supported inference runtime, and performance on a held-out set are not established here.
 

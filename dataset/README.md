@@ -1,13 +1,13 @@
 # Dataset status and downloads
 
-## Requested releases
+## Published dataset archives
 
-Two original exports were explicitly selected for distribution:
+The two original exports selected for the project are published as GitHub Release assets:
 
-| Source | Approx. size | Publication format | Status |
+| Archive | Size | Download | Release |
 | --- | ---: | --- | --- |
-| `C:\label_root\data.zip` | 2,676,999,967 bytes | [Part 1](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/data.zip.part01) + [Part 2](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/data.zip.part02); concatenate to recover the byte-identical ZIP | GitHub Release `v0.1.0` |
-| `C:\Users\user\OneDrive\桌面----\Griffith\YOLO\data.zip` | 199,120,755 bytes | [Download the original export](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/dataset-small-data.zip) | GitHub Release `v0.1.0` |
+| Primary Label Studio export | 2,676,999,967 bytes | [Part 1](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/data.zip.part01) + [Part 2](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/data.zip.part02) | `v0.1.0` |
+| Secondary YOLO export | 199,120,755 bytes | [Download the archive](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/dataset-small-data.zip) | `v0.1.0` |
 
 Prepared asset checksums:
 
@@ -28,13 +28,13 @@ The original archives remain unchanged at their source locations. The 2.67 GB ZI
 
 ## Existing source metadata
 
-The Label Studio export at `C:\label_root\data.zip` contains 554 image files and 572 annotation text files, plus `classes.txt` and `notes.json`. The annotation rows contain polygon coordinates rather than the five-field detection boxes expected by the supplied `task='detect'` program. After decoding the source filenames, a read-only scan found 554 images with labels, 13 duplicate label stems, zero malformed polygon rows, and no unreadable images. Class IDs are `0: 533`, `1: 82`, and `2: 254` annotated polygons. Its category metadata says `0 Crosswalk`, `1 Green light`, `2 Red light`.
+The primary Label Studio export contains 554 image files and 572 annotation text files, plus `classes.txt` and `notes.json`. The annotation rows contain polygon coordinates rather than the five-field detection boxes expected by the supplied `task='detect'` program. After decoding the source filenames, a read-only scan found 554 images with labels, 13 duplicate label stems, zero malformed polygon rows, and no unreadable images. Class IDs are `0: 533`, `1: 82`, and `2: 254` annotated polygons. Its category metadata says `0 Crosswalk`, `1 Green light`, `2 Red light`.
 
 The 199 MB export contains 128 image files and 147 annotation text files, plus metadata. After extraction and read-only checking, 19 label stems had no image, 15 image stems and 15 label stems were duplicated, two polygon rows had coordinates outside `[0,1]`, and three groups of images had identical contents. No images were unreadable. Its metadata says `0 cross road`, `1 green light`, `2 red light`. Neither export distinguishes pedestrian signals from vehicle signals.
 
-Separately, the extracted `C:\label_root\images` and `C:\label_root\labels` directories contain 554 matched image/label pairs in YOLO detection format. A read-only scan found 845 boxes, all with class ID 0, four groups of byte-identical images, and no unreadable images. Its root `classes.txt` lists `Green light`, `Red light`, `Crosswalk`, making class ID 0's meaning conflict with the other export. This extracted set was not selected as a release asset.
+Separately, the extracted `images/` and `labels/` directories in the primary workspace contain 554 matched image/label pairs in YOLO detection format. A read-only scan found 845 boxes, all with class ID 0, four groups of byte-identical images, and no unreadable images. Its `classes.txt` lists `Green light`, `Red light`, `Crosswalk`, making class ID 0's meaning conflict with the other export. This extracted set was not selected as a release asset.
 
-The root `classes.txt` in the first workspace contains a different three-line order (`Green light`, `Red light`, `Crosswalk`). These metadata sources conflict with one another and with the requested five-class target in [`classes.txt`](classes.txt). Do not overwrite source labels or treat these exports as the requested five-class dataset.
+The primary workspace `classes.txt` contains a different three-line order (`Green light`, `Red light`, `Crosswalk`). These metadata sources conflict with one another and with the requested five-class target in [`classes.txt`](classes.txt). Do not overwrite source labels or treat these exports as the requested five-class dataset.
 
 The supplied exports do not document train/validation/test splits or redistribution licenses. Image sources and permissions are not established in the available files. The dataset should not be described as fully reproducible or unrestricted until provenance and licensing are confirmed.
 

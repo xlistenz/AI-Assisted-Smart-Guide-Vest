@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">AI-Assisted Smart Guide Vest</title>
+  <desc id="banner-desc">Illustrated project banner with a high-visibility vest, traffic signal, and crosswalk. This is not a photograph of the device.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a2d"/>
+      <stop offset="1" stop-color="#172b3c"/>
+    </linearGradient>
+    <linearGradient id="vest" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#e9f875"/>
+      <stop offset="1" stop-color="#b9d841"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#a8c2cf" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="420" rx="28" fill="url(#background)"/>
+  <rect width="1440" height="420" rx="28" fill="url(#grid)"/>
+  <path d="M0 360C240 305 480 415 740 352s470-58 700-8v76H0Z" fill="#0b1321" fill-opacity=".48"/>
+  <path d="M72 73h8v238h-8z" fill="#f28a55"/>
+  <text x="104" y="91" fill="#d8ef70" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="3">ASSISTIVE TECHNOLOGY · RESEARCH PROTOTYPE</text>
+  <text x="100" y="164" fill="#f7f8f3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="54" font-weight="750" letter-spacing="1">VISION + VOICE</text>
+  <text x="100" y="229" fill="#f7f8f3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="54" font-weight="750" letter-spacing="1">VIBRATION FEEDBACK</text>
+  <text x="103" y="270" fill="#b7c6d0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Exploring accessible street-crossing cues</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">
+    <rect x="102" y="302" width="208" height="42" rx="21" fill="#26384b" stroke="#829caa" stroke-opacity=".6"/>
+    <circle cx="124" cy="323" r="6" fill="#d8ef70"/>
+    <text x="140" y="329" fill="#f2f6ef">2026 TEYI · SILVER</text>
+    <rect x="324" y="302" width="210" height="42" rx="21" fill="#26384b" stroke="#829caa" stroke-opacity=".6"/>
+    <circle cx="346" cy="323" r="6" fill="#f28a55"/>
+    <text x="362" y="329" fill="#f2f6ef">2026 WICO · SILVER</text>
+  </g>
+  <g opacity=".46" fill="#d7e3e6">
+    <path d="M881 329h33l18 57h-34z"/>
+    <path d="M930 329h33l18 57h-34z"/>
+    <path d="M979 329h33l18 57h-34z"/>
+    <path d="M1028 329h33l18 57h-34z"/>
+  </g>
+  <g>
+    <path d="m1052 81 43-18 48 29 49-29 44 18 32 54-39 25-20-20v175H976V140l-20 20-39-25 32-54 44-18 49 29Z" fill="url(#vest)" stroke="#f5ffc4" stroke-width="3" stroke-linejoin="round"/>
+    <path d="m1052 81 40 76-24 31-44-107m119 0-40 76 24 31 44-107" fill="#94b52f" opacity=".8"/>
+    <path d="M987 245h218v22H987z" fill="#f28a55"/>
+    <path d="M987 278h218v9H987z" fill="#f3f4d9" opacity=".9"/>
+    <rect x="1072" y="176" width="74" height="62" rx="13" fill="#172b3c" stroke="#f28a55" stroke-width="5"/>
+    <circle cx="1109" cy="207" r="20" fill="#263f54" stroke="#9bd7e0" stroke-width="4"/>
+    <circle cx="1109" cy="207" r="8" fill="#78c8d0"/>
+  </g>
+  <g transform="translate(1282 102)">
+    <rect width="75" height="180" rx="22" fill="#09111d" stroke="#748d9a" stroke-width="4"/>
+    <circle cx="37.5" cy="42" r="18" fill="#f28a55"/>
+    <circle cx="37.5" cy="90" r="18" fill="#e7cc67"/>
+    <circle cx="37.5" cy="138" r="18" fill="#8dbb5b"/>
+    <path d="M37 180v38" stroke="#748d9a" stroke-width="8"/>
+  </g>
+</svg>
