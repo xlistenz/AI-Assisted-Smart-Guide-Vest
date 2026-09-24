@@ -6,17 +6,17 @@ Two original exports were explicitly selected for distribution:
 
 | Source | Approx. size | Publication format | Status |
 | --- | ---: | --- | --- |
-| `C:\label_root\data.zip` | 2,676,999,967 bytes | Two GitHub Release parts; concatenate to recover the byte-identical ZIP | Prepared locally; Release upload pending |
-| `C:\Users\user\OneDrive\桌面----\Griffith\YOLO\data.zip` | 199,120,755 bytes | One GitHub Release asset | Prepared locally; Release upload pending |
+| `C:\label_root\data.zip` | 2,676,999,967 bytes | [Part 1](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/data.zip.part01) + [Part 2](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/data.zip.part02); concatenate to recover the byte-identical ZIP | GitHub Release `v0.1.0` |
+| `C:\Users\user\OneDrive\桌面----\Griffith\YOLO\data.zip` | 199,120,755 bytes | [Download the original export](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/dataset-small-data.zip) | GitHub Release `v0.1.0` |
 
 Prepared asset checksums:
 
 | Release asset | Bytes | SHA-256 |
 | --- | ---: | --- |
-| `data.zip.part01` | 1,500,000,000 | `38dac5f09304dc54d882f8f39862b66dae63e1ed8c4a94d37195778fdb7f4ae8` |
-| `data.zip.part02` | 1,176,999,967 | `c7dfb807137d41d2973d4305e2a61af56ace00270f2e89223ccabb9d04ba8c84` |
+| [`data.zip.part01`](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/data.zip.part01) | 1,500,000,000 | `38dac5f09304dc54d882f8f39862b66dae63e1ed8c4a94d37195778fdb7f4ae8` |
+| [`data.zip.part02`](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/data.zip.part02) | 1,176,999,967 | `c7dfb807137d41d2973d4305e2a61af56ace00270f2e89223ccabb9d04ba8c84` |
 | Reassembled `data.zip` | 2,676,999,967 | `878d7d8866c9872fe1d59b50a48d206b31dc92ea2741b73f3f991914255bad10` |
-| `dataset-small-data.zip` | 199,120,755 | `4f446ab3f33c74227955b8e8221a8658bde09096f9b28476ae48519a38eb1908` |
+| [`dataset-small-data.zip`](https://github.com/xlistenz/AI-Assisted-Smart-Guide-Vest/releases/download/v0.1.0/dataset-small-data.zip) | 199,120,755 | `4f446ab3f33c74227955b8e8221a8658bde09096f9b28476ae48519a38eb1908` |
 
 After downloading the two large-file parts, restore the original ZIP without overwriting an existing file:
 
@@ -24,7 +24,7 @@ After downloading the two large-file parts, restore the original ZIP without ove
 python scripts/join_release_parts.py --output data.zip data.zip.part01 data.zip.part02
 ```
 
-The original archives remain unchanged at their source locations. Add the release URL and direct download links here after publication. The 2.67 GB ZIP exceeds GitHub Free/Pro's 2 GB Git LFS per-file limit, while each Release asset must be under 2 GiB; splitting preserves its content and permits reconstruction.
+The original archives remain unchanged at their source locations. The 2.67 GB ZIP exceeds GitHub Free/Pro's 2 GB Git LFS per-file limit, while each Release asset must be under 2 GiB; splitting preserves its content and permits reconstruction.
 
 ## Existing source metadata
 
