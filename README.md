@@ -1,4 +1,4 @@
-# AI-Assisted Smart Guide Vest 1
+# AI-Assisted Smart Guide Vest 
 
 **Exploring camera-based cues for safer, more accessible street crossings.**
 
